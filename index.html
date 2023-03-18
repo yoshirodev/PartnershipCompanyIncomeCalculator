@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IncomeCalculator</title>
+    </head>
+
+    <body>
+        <h1>Partnership Company Income Calculator</h1>
+        <p>Our app provides an easy and efficient solution for partnerships to calculate their income based on individual contributions. With just a few taps, partners can input their contributions and our app will calculate each partner's share of the partnership income. This information can then be used to ensure that each partner is receiving a fair share of the income based on their contributions. As the owner of this app, I'm excited to offer this tool to partnerships to help them achieve transparency and fairness in their income allocation. We hope that by using our app, partnerships can more easily manage and grow their businesses.</p>
+        <p>NOTE:  This only works on PHILIPPINE PESO RIGHT NOW</p>
+        <button style="height: 50px; width: 100px" onclick="MainFunction()">Calculate</button>
+        <div id="contributionDiv">
+            <h2>contribution of each</h2>
+            <p>Contributor 1</p>
+            <input id="contribution1" type="number">
+            <p>Contributor 2</p>
+            <input id="contribution2" type="number">
+            '<p>Contributor 3</p>
+            <input id="contribution3" type="number">
+            <p>Contributor 4</p>
+            <input id="contribution4" type="number">
+
+            <h2>Overall Contribution</h2>
+            <h2 id="overallContri"></h2>
+        </div>
+        <div id="incomeDiv">
+            <h2>Income of the company ( Overall )</h2>
+
+            <input id="income" type="number">
+        </div>
+        <div id="outputDiv">
+
+            <h2>Output</h2>
+            <h2 id="output1"></h2>
+            <h2 id="output2"></h2>
+            <h2 id="output3"></h2>
+            <h2 id="output4"></h2>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
